@@ -1,7 +1,7 @@
 # Teori dari UART
 
 # 1. Cara Kerja UART 
-![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
+![Gambar 1.1 : Cara Kerja UART](https://raw.githubusercontent.com/masterhafid/doc-FPGA-altera-hafid/master/UART/img/UARTworks.png)
 dikutip : http://www.circuitbasics.com/basics-uart-communication/
 
 	a. awal dari UART dimulai dari menaikkan sinyal atau bernilai bit 1. dari bit 1 diturunkan jadi bit 0, dari penurunan inilah UART secara otomatis dimulai.
@@ -18,7 +18,7 @@ dikutip : http://www.circuitbasics.com/basics-uart-communication/
 	
 	# PERINGATAN, FPGA YANG SAYA PAKAI BERVOLTASE MAKSIMAL 3.3V. JIKA MELEBIHI MAKA AKAN RUSAK.
 
-![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
+![Gambar 2.1 : Gambar Alat](https://scontent.fsub8-1.fna.fbcdn.net/v/t1.0-9/70424369_2433225070337291_7530681273237372928_n.jpg?_nc_cat=109&_nc_oc=AQmLCgOpZ4CAnQb5Ikdm8svQ3TRM0Ig-0GBgR02NTEId7mUJnNVByv3pi4NMqLO7sfQ&_nc_ht=scontent.fsub8-1.fna&oh=bdd31ab9db488ff0a80ef91ce9836d88&oe=5E135928)
 
 # 3. Implementasi UART TX
 	
@@ -45,11 +45,14 @@ dikutip : http://www.circuitbasics.com/basics-uart-communication/
 # 4. Pengujian UART TX
 
 	1. Pengujian pengeriman 8 bit data / 1 char data
-![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)	
+![Gambar 4.1.1 : contoh kalimat](https://raw.githubusercontent.com/masterhafid/doc-FPGA-altera-hafid/master/UART/img/TX%208%20bit%20data%201.png)	
+![Gambar 4.1.2 : signal atau bit data](https://raw.githubusercontent.com/masterhafid/doc-FPGA-altera-hafid/master/UART/img/TX%208%20bit%20data%202.png)	
+![Gambar 4.1.3 : di serial arduino](https://raw.githubusercontent.com/masterhafid/doc-FPGA-altera-hafid/master/UART/img/TX%208%20bit%20data%203.png)	
 
 	2. Pengujian pengiriman kalimat data
-![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
-
+![Gambar 4.2.1 : contoh kalimat](https://raw.githubusercontent.com/masterhafid/doc-FPGA-altera-hafid/master/UART/img/TX%20Multiple%20data%201.png)	
+![Gambar 4.2.2 : signal atau bit data](https://raw.githubusercontent.com/masterhafid/doc-FPGA-altera-hafid/master/UART/img/TX%20Multiple%20data%202.png)	
+![Gambar 4.2.3 : di serial arduino](https://raw.githubusercontent.com/masterhafid/doc-FPGA-altera-hafid/master/UART/img/TX%20Multiple%20data%203.png)
 
 # Daftar Pustaka
 [1] . http://www.circuitbasics.com/basics-uart-communication/
